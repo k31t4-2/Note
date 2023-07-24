@@ -1,0 +1,47 @@
+.main {
+  width: 100%;
+  height: 100vh;
+}
+.main__edit, .main__preview {
+  height: 50vh;
+  padding: 20px;
+}
+.main__edit {
+  border-bottom: 6px dotted rgb(147, 148, 154);
+}
+.main__edit-input, .main__edit-text {
+  display: block;
+  border: none;
+  background-color: #fff;
+  resize: none;
+  margin-bottom: 20px;
+  height: calc(50vh - 130px);
+  padding: 8px;
+  width: 100%;
+}
+.main__edit-input {
+  height: 50px;
+  font-size: 2rem;
+}
+.main__edit-text {
+  font-size: 1.4rem;
+}
+.main__preview {
+  background-color: rgba(0, 0, 0, 0.1);
+  overflow-y: scroll;
+}
+.main__preview-ttl {
+  padding-bottom: 10px;
+}
+.main__preview-content {
+  font-size: 1.4rem;
+}
+
+.noActiveNote {
+  width: 70%;
+  height: 100vh;
+  line-height: 100vh;
+  text-align: center;
+  color: rgb(129, 114, 114);
+  font-size: 2rem;
+}

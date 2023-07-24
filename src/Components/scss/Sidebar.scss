@@ -1,0 +1,62 @@
+
+// 共通 module --------------------------
+.btn{
+  background: none;
+  border: none;
+  color: rgb(109, 206, 255);
+  cursor: pointer;
+}
+
+// 個別 module --------------------------
+
+.sidebar{
+  width: 30%;
+  height: 100vh;
+  border-right: 5px dotted #868282;
+
+  .sidebar__header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+
+  }
+
+  .sidebar__content{
+    width: 100%;
+    height: calc(100vh - 80px);
+    overflow-y: scroll;
+
+    &-wrap{
+      padding: 20px;
+      cursor: pointer;
+
+      &:hover{
+        background-color: #c3d5f8;
+
+      }
+      &.active{
+        background-color: #9799fa;
+      }
+
+
+    }
+
+    &-ttl{
+      display: flex;
+      justify-content: space-between;
+    }
+
+    &-txt{
+      font-size: 1.4rem;
+      margin: 10px 0px;
+    }
+
+    &-date{
+      font-size: .8rem;
+      color: gray;
+      text-align: right;
+    }
+
+}
+}
